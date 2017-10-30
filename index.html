@@ -11,24 +11,26 @@
     <title>Freelance</title>
 </head>
 <body>
+    <nav class="text-uppercase box-header">
+        <div>
+            <a id="nav-top" href="#">start Bootstrap</a>
+            <a href="#">portfolio</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+        </div>
+    </nav>
     <header>
-        <p class="text-uppercase box-header">start bootstrap</p>
-        <nav class="box-header">
-        <ul class="text-uppercase">
-            <li><a href="#"></a>portfolio</li>
-            <li><a href="#"></a>about</li>
-            <li><a href="#"></a>contact</li>
-        </ul>
-        </nav>
-    </header>
-    <section>
-        <figure><img src="assets/images/profile.png" alt="profile"></figure>
-         <h1 class="text-uppercase">start bootstrap</h1>
-        <div><span class="icon-star"></span></div>
-        <p>Web Developer - Graphic Artist - User Experience Designer</p>
-    </section>
-    <section>
-        <h2 class="text-uppercase">portfolio</h2>
+        <div class="box-container">
+        <img class="img-center" src="assets/images/profile.png" alt>
+        <div class="text-container">
+        <p id="box-title" class="text-uppercase text-center">start bootstrap</p>
+        <span class="icon-star"></span>
+        <p>Web Developer - Graphic Artist - User Experience Designer</p> 
+        </div>
+        </div>
+    </header>  
+    <section id="portfolio">
+        <h2 class="text-uppercase text-center">portfolio</h2>
         <div><span class="icon-star"></span></div>
         <figure>
             <span>
@@ -41,7 +43,7 @@
             </span>
         </figure>
     </section>
-    <section>
+    <section class="">
         <h2 class="text-uppercase">about</h2>
         <div><span class="icon-star"></span></div>
         <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>

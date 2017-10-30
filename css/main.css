@@ -8,6 +8,7 @@
      sans-serif;
      margin: 0; 
      padding: 0;
+     color: #ffffff;
  }
 
  /*Clases Reutulizables*/
@@ -20,10 +21,17 @@
      display: inline-block;
  }
 
+ .text-center {
+    text-align: center;
+ }
+
+
+
  /**/
 
- header {
+ nav {
      outline: 1px solid blue;
+     background-color: #212529;
      position: fixed;
      width: 1263px;
      height: 108px;
@@ -32,10 +40,73 @@
      left: 0;
  }
 
-li {
+div a {
      list-style: none;
+     text-decoration: none;
      display: inline-block;
-     position: relative;    
+     position: relative;
+     color: #ffffff;
  }
+
+#nav-top {
+    padding-top: 42px;
+    padding-bottom: 5px;
+    margin-right: 16px;
+    font-size: 33px;
+    font-weight: 800;
+
+}
+
+header {
+    background-color: #18bc9c;
+    height: 768px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.box-container {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1140px; 
+}
+
+.img-center {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 427px;
+    margin-right: 427px;
+    margin-bottom: 20px;
+}
+
+.text-container {
+    display: block;
+    height: 216px;
+    width: 1110px;
+    margin: 0;
+}
+
+#box-title {
+    font-size: 65px;
+    font-weight: 800;
+}
+
+
+#portfolio {
+    display: block;
+    position: static;
+    height: 883px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+#portfolio img {
+    width: 350px;
+    height: 253px;
+}
+
 
  
